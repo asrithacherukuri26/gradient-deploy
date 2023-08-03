@@ -7,11 +7,8 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- bootstrap links start -->
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
-
     <!-- bootstrap links end -->
 
 
@@ -19,47 +16,40 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="assets/img/gradicon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Gradient
-          </a>
-        </div>
-      </nav>
-  
-
-
-    <div class="container-fluid" id="banner-text">
-
-
-        <div class="jumbotron">
-            
-            <div class="container">
-                <div class="row">
-                  <div class="col-md-6">
-                    <h1>Connecting Health Enthusiasts</h1>
-                    <p class="card-text">
-                      Gradient offers a social networking app service for the health and fitness industry. 
-                      The app provides gym members or health enthusiasts a platform to connect with each other and build a community.
-                    </p>
-                    <button class="btn btn-outline-dark" onclick="openGoogleForm()">JOIN WAITLIST</button>
-                  </div>
-                  <div class="col-md-6">
-                    <img id="banner-image" src="assets/img/intro.jpg" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/gradicon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Gradient
+      </a>
     </div>
+  </nav>
 
+<div class="container-fluid" id="banner-text">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <h1>Connecting Health Enthusiasts</h1>
+                <p class="card-text">
+                  Gradient offers a social networking app service for the health and fitness industry. 
+                  The app provides gym members or health enthusiasts a platform to connect with each other and build a community.
+                </p>
+                <button class="btn btn-outline-dark" onclick="openGoogleForm()">JOIN WAITLIST</button>
+              </div>
+              <div class="col-lg-6">
+                <img id="banner-image" src="assets/img/intro.jpg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
 
-
-    <script>
-        function openGoogleForm() {
-            // Redirect to the Google Form link
-            window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeY6h8oO9ranw9FBewW9BRBJxeVFnn92wmXmwSHjefZ-_OEhQ/viewform";
-        }
-    </script>
+<script>
+    function openGoogleForm() {
+        // Redirect to the Google Form link
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeY6h8oO9ranw9FBewW9BRBJxeVFnn92wmXmwSHjefZ-_OEhQ/viewform";
+    }
+</script>
 </body>
 </html>
