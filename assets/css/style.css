@@ -14,3 +14,17 @@
     left: 200px;
 
 }
+
+@media (max-width: 767.98px) {
+    /* Styles for phones and small tablets */
+    #banner-text {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Styles for medium-sized devices like tablets */
+    #banner-image {
+        max-width: 400px;
+    }
+}
