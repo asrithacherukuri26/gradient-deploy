@@ -1,56 +1,67 @@
-#banner-image {
+/* Styles for phones and small tablets */
+@media (max-width: 767.98px) {
+    #banner-text {
+        margin-top: 20px;
+        text-align: center;
+    }
+ 
+    #banner-image {
+        margin: auto;
+        max-width: 100%;
+        width: auto;
+        height: 80%;
+        transform: rotate(20deg);
+    }
+ 
+    /* Additional styles for smaller screens */
+    /* Add any other necessary adjustments for smaller screens */
+ }
+ 
+ /* Styles for medium-sized devices like tablets */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    #banner-image {
+        max-width: 100%;
+        width: auto;
+        height: 80%;
+        transform: rotate(20deg);
+    }
+ 
+    /* Additional styles for medium-sized screens */
+    /* Add any other necessary adjustments for medium-sized screens */
+ }
+
+ #banner-image {
     max-width: 250px;
     border-radius: 2%;
-    height: 80%;
+    /* height: 80%; Remove this line to allow the image to scale */
     transform: rotate(-4deg);
-    box-shadow: 0px 0px 20px black;
-      
+    scale: 1.1;
+    box-shadow: 0px 0px 200px rgb(236, 40, 105);
 }
-.super-container{
+
+body {
     background-image: url("../img/background.jpeg");
-}
-.btn.btn-outline-dark {
-    color: #ffffff; /* Change this to the desired text color for dark background */
-    background-color: #343a40; /* Change this to the desired background color */
-    /* Add other styles as needed */
-  }
-
-#intro-text{
-    color: white;
-}
-#sub-intro{
-    margin-top: 10px;
-    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-#banner-text {
-   margin-top: 100px;
-   margin-bottom: 100px;
-   margin-right: 50px;
+
+.container{
+    color: aliceblue;
+}
+.container h1{
+    color: rgb(236, 40, 105);
+    text-shadow: 0px 0px 1px rgb(248, 185, 185);
 }
 
-@media (max-width: 767.98px) {
-   /* Styles for phones and small tablets */
-   #banner-text {
-       margin-top: 20px;
-       text-align: center;
-   }
-   #banner-image {
-    margin: auto;
-    max-width: 100%;
-    width: auto;
-    heigth:auto;
-    transform: rotate(20deg);
-}
+
+
+#banner-text{
+    margin-top: 100px;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-   /* Styles for medium-sized devices like tablets */
-   #banner-image {
-    max-width: 100%;
-    width: auto;
-    heigth: auto;
-    transform: rotate(20deg);
-}
-}
+
+
+
+
