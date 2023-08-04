@@ -13,6 +13,11 @@
         margin-top: 100px;
         transform: rotate(20deg);
     }
+   
+      
+      #sub-intro {
+        margin-top: 10%; /* Add margin at the top of the <p> element */
+      }
  
     /* Additional styles for smaller screens */
     /* Add any other necessary adjustments for smaller screens */
@@ -43,9 +48,11 @@
 }
 
 body {
-    background-image: url("../img/background.jpeg");
+    background-image: url("../img/backgroundfinal.png");
     background-repeat: no-repeat;
+    background-position-y: 50%;
     background-size: cover;
+    
 }
 
 
@@ -64,8 +71,7 @@ body {
 #banner-text{
     margin-top: 100px;
 }
-
-
-
-
-
+.btn.btn-light {
+    background-color: gray;
+    color: white; /* Optionally, change the text color to white to increase contrast */
+  }
