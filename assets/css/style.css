@@ -40,7 +40,7 @@
     margin: auto;
     max-width: 100%;
     width: auto;
-     height: 80%;
+    heigth:auto;
     transform: rotate(20deg);
 }
 }
@@ -50,7 +50,7 @@
    #banner-image {
     max-width: 100%;
     width: auto;
-     height: 80%;
+    heigth: auto;
     transform: rotate(20deg);
 }
 }
