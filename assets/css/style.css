@@ -10,6 +10,7 @@
         max-width: 100%;
         width: auto;
         height: 80%;
+        margin-top: 100px;
         transform: rotate(20deg);
     }
  
@@ -23,6 +24,7 @@
         max-width: 100%;
         width: auto;
         height: 80%;
+        margin-top: 100px;
         transform: rotate(20deg);
     }
  
@@ -32,11 +34,12 @@
 
  #banner-image {
     max-width: 250px;
+   
     border-radius: 2%;
     /* height: 80%; Remove this line to allow the image to scale */
     transform: rotate(-4deg);
-    scale: 1.1;
-    box-shadow: 0px 0px 200px rgb(236, 40, 105);
+    
+    box-shadow: 0px 0px 200px rgb(251, 249, 249);
 }
 
 body {
@@ -49,10 +52,11 @@ body {
 
 .container{
     color: aliceblue;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
 }
 .container h1{
-    color: rgb(236, 40, 105);
-    text-shadow: 0px 0px 1px rgb(248, 185, 185);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
 }
 
 
