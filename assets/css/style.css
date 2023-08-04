@@ -4,12 +4,14 @@
         margin-top: 20px;
         text-align: center;
     }
+
+   
  
     #banner-image {
         margin: auto;
         max-width: 100%;
         width: auto;
-        height: 80%;
+        height: auto;
         margin-top: 100px;
         transform: rotate(20deg);
     }
@@ -28,10 +30,11 @@
     #banner-image {
         max-width: 100%;
         width: auto;
-        height: 80%;
+        height: auto;
         margin-top: 100px;
         transform: rotate(20deg);
     }
+ 
  
     /* Additional styles for medium-sized screens */
     /* Add any other necessary adjustments for medium-sized screens */
@@ -50,9 +53,11 @@
 body {
     background-image: url("../img/backgroundfinal.png");
     background-repeat: no-repeat;
-    background-position-y: 50%;
+    background-position: center center;
+    background-attachment: fixed; /* This helps with background flickering on some mobile devices */
     background-size: cover;
-    
+    height: 100vh; /* Set the height of the body to the full viewport height */
+    margin: 0; /* Remove default body margin */
 }
 
 
