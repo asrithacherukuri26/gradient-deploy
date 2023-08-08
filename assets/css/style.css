@@ -3,12 +3,12 @@
     #banner-text {
         margin-top: 20px;
         text-align: center;
-        background-color: black;
-    }  
-    .super-container {
+        background: url("../img/bcimg.png");}
+
+    #banner-background {
         background-image: url("../img/frame.svg");
         background-repeat: no-repeat;
-        background-position: center bottom;
+        background-position: center top;
         background-attachment: fixed; /* This helps with background flickering on some mobile devices */
         background-size: cover;
         height: 100vh; /* Set the height of the body to the full viewport height */
@@ -32,6 +32,20 @@
         height: auto;
         margin-top: 100px;
         transform: rotate(20deg);
+    }
+    #banner-text {
+        margin-top: 20px;
+        text-align: center;
+        background: url("../img/bcimg.png");}
+
+    #banner-background {
+        background-image: url("../img/frame.svg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed; /* This helps with background flickering on some mobile devices */
+        background-size: cover;
+        height: 100vh; /* Set the height of the body to the full viewport height */
+        margin: 0; /* Remove default body margin */
     }
    
     
